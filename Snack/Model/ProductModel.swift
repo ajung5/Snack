@@ -28,98 +28,98 @@ struct Product: Identifiable {
 var productList = [
     Product(
       name: "Chocolate Chip Cookies",
-      category: "choco",
+      category: "Choco",
       price: 5.99,
-      imageName: "chocolate-chip-cookies.jpg",
+      imageName: "chocolate-chip-cookies",
       color: .pink
     ),
     Product(
       name: "Peanut Butter Cookies",
-      category: "choco",
+      category: "Choco",
       price: 4.99,
       imageName: "peanut-butter-cookies.jpg",
       color: .pink
     ),
     Product(
       name: "Oatmeal Raisin Cookies",
-      category: "choco",
+      category: "Choco",
       price: 3.99,
       imageName: "oatmeal-raisin-cookies.jpg",
       color: .pink
     ),
     Product(
       name: "Snickerdoodles",
-      category: "choco",
+      category: "Choco",
       price: 2.99,
       imageName: "snickerdoodles.jpg",
       color: .pink
     ),
     Product(
       name: "Chocolate Milkshake",
-      category: "choco",
+      category: "Choco",
       price: 4.99,
       imageName: "chocolate-milkshake.jpg",
       color: .pink
     ),
     Product(
       name: "Tortilla",
-      category: "chips",
+      category: "Chips",
       price: 1.99,
       imageName: "tortilla-chips.jpg",
       color: .pink
     ),
     Product(
       name: "Corn Chips",
-      category: "chips",
+      category: "Chips",
       price: 1.99,
       imageName: "corn-chips.jpg",
       color: .pink
     ),
     Product(
       name: "Cheetos",
-      category: "chips",
+      category: "Chips",
       price: 1.99,
       imageName: "cheetos.jpg",
       color: .pink
     ),
     Product(
       name: "Doritos",
-      category: "chips",
+      category: "Chips",
       price: 1.99,
       imageName: "doritos.jpg",
       color: .pink
     ),
     Product(
       name: "Lays",
-      category: "chips",
+      category: "Chips",
       price: 1.99,
       imageName: "lays.jpg",
       color: .pink
     ),
     Product(
       name: "Ruffles",
-      category: "chips",
+      category: "Chips",
       price: 1.99,
       imageName: "ruffles.jpg",
       color: .pink
     ),
     Product(
       name: "Pringles",
-      category: "chips",
+      category: "Chips",
       price: 1.99,
       imageName: "pringles.jpg",
       color: .pink
     ),
     Product(
       name: "Salt & Vinegar",
-      category: "chips",
+      category: "Chips",
       price: 1.99,
       imageName: "salt-and-vinegar-chips.jpg",
       color: .pink
     ),
     Product(
       name: "Barbecue",
-      category: "chips",
+      category: "Chips",
       price: 1.99,
       imageName: "barbecue-chips.jpg",
       color: .pink

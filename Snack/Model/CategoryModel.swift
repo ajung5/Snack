@@ -17,6 +17,7 @@ struct CategoryModel: Identifiable, Hashable, Codable {
 var categoryList: [CategoryModel] = [
     CategoryModel(icon: "", title: "All"),
     CategoryModel(icon: "choco", title: "Choco"),
+    CategoryModel(icon: "crisps", title: "Chips"),
     CategoryModel(icon: "candy", title: "Candy"),
     CategoryModel(icon: "waffle", title: "Wafle")
 ]
