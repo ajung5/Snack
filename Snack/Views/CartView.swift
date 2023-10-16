@@ -1,5 +1,5 @@
 //
-//  CategoryView.swift
+//  CartView.swift
 //  Snack
 //
 //  Created by Agung Nawawi on 16/10/23.
@@ -7,24 +7,38 @@
 
 import SwiftUI
 
-struct CategoryView: View {
+struct CartView: View {
     
-    @Environment(\.dismiss) var dismiss
+    @Environment(\.isPresented) var mode
     
     var body: some View {
-        NavigationView {
+        NavigationView(content: {
             ScrollView {
                 VStack {
-                    // Header
                     HStack {
-                        Text("Order From The Best OF **Snacks**")
+                        Text("Cart")
                             .font(.system(size: 30))
                             .padding(.trailing)
                         
                         Spacer()
                         
                         Button(action: {
-                            dismiss()
+                            
+                        }, label: {
+                            Text("3")
+                                .imageScale(.large)
+                                .padding()
+                                .frame(width: 70, height: 90)
+                                .background(
+                                    .yellow
+                                        .opacity(0.5)
+                                )
+                                .clipShape(Capsule())
+                        })
+                        .foregroundStyle(.black)
+                        
+                        Button(action: {
+                            
                         }, label: {
                             Image(systemName: "arrow.left")
                                 .imageScale(.large)
@@ -40,21 +54,23 @@ struct CategoryView: View {
                     }
                     .padding(30)
                     
-                    LazyVGrid(columns:
-                                [GridItem(.flexible()),
-                                 GridItem(.flexible())],
-                              content: {
-                                ForEach(productList, id: \.id) { item in
-                                    ProductCardSmall(product: item)
+                    // Cart Products
+                    VStack {
+                        ForEach(productList) { item in
+                            CartProductCard(product: item)
                         }
-                    })
+                    }
                     .padding(.horizontal)
+                    
+                    // Card Total
+                    
+                    //
                 }
             }
-        }
+        })
     }
 }
 
 #Preview {
-    CategoryView()
+    CartView()
 }
