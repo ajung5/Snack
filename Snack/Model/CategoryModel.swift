@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct CategoryModel: Identifiable, Hashable {
+struct CategoryModel: Identifiable, Hashable, Codable {
     var id: UUID = .init()
     var icon: String
     var title: String

@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
+   
     var body: some View {
         ScrollView {
             VStack {
@@ -40,6 +41,7 @@ struct HomeView: View {
             
             // Product List
             ProductListView()
+            
         }
     }
 }

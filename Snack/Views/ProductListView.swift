@@ -9,7 +9,13 @@ import SwiftUI
 
 struct ProductListView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack {
+                ForEach(productList, id: \.id) { item in
+                    ProductCard(product: item)
+                }
+            }
+        }
     }
 }
 
