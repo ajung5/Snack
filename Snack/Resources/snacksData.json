@@ -1,0 +1,117 @@
+[
+    {
+        "name": "Doritos Nacho Cheese",
+        "category": "chips",
+        "imageName": "doritos-nacho-cheese.jpg",
+        "price": 2.50
+    },
+    {
+        "name": "Lays Classic Potato Chips",
+        "category": "chips",
+        "imageName": "lays-classic-potato-chips.jpg",
+        "price": 2.00
+    },
+    {
+        "name": "Pringles Sour Cream and Onion",
+        "category": "chips",
+        "imageName": "pringles-sour-cream-and-onion.jpg",
+        "price": 2.75
+    },
+    {
+        "name": "M&M's Plain Chocolate",
+        "category": "choco",
+        "imageName": "mm-plain-chocolate.jpg",
+        "price": 3.00
+    },
+    {
+        "name": "Reese's Peanut Butter Cups",
+        "category": "choco",
+        "imageName": "reeses-peanut-butter-cups.jpg",
+        "price": 3.50
+    },
+    {
+        "name": "Snickers Bars",
+        "category": "choco",
+        "imageName": "snickers-bars.jpg",
+        "price": 3.25
+    },
+    {
+        "name": "Cheetos Flamin' Hot",
+        "category": "chips",
+        "imageName": "cheetos-flamin-hot.jpg",
+        "price": 2.25
+    },
+    {
+        "name": "Fritos Original Corn Chips",
+        "category": "chips",
+        "imageName": "fritos-original-corn-chips.jpg",
+        "price": 2.00
+    },
+    {
+        "name": "Bugles Original",
+        "category": "chips",
+        "imageName": "bugles-original.jpg",
+        "price": 2.25
+    },
+    {
+        "name": "Hershey's Milk Chocolate Bar",
+        "category": "choco",
+        "imageName": "hersheys-milk-chocolate-bar.jpg",
+        "price": 2.50
+    },
+    {
+        "name": "Kit Kat Bars",
+        "category": "choco",
+        "imageName": "kit-kat-bars.jpg",
+        "price": 3.00
+    },
+    {
+        "name": "Twix Bars",
+        "category": "choco",
+        "imageName": "twix-bars.jpg",
+        "price": 3.25
+    },
+    {
+        "name": "Sun Chips Harvest Cheddar",
+        "category": "chips",
+        "imageName": "sun-chips-harvest-cheddar.jpg",
+        "price": 2.75
+    },
+    {
+        "name": "Cape Cod Original Kettle Cooked Chips",
+        "category": "chips",
+        "imageName": "cape-cod-original-kettle-cooked-chips.jpg",
+        "price": 3.00
+    },
+    {
+        "name": "Wise Baked Lay's Classic Potato Chips",
+        "category": "chips",
+        "imageName": "wise-baked-lays-classic-potato-chips.jpg",
+        "price": 2.50
+    },
+    {
+        "name": "Smarties",
+        "category": "choco",
+        "imageName": "smarties.jpg",
+        "price": 3.00
+    },
+    {
+        "name": "Mike & Ike Original Fruit Chews",
+        "category": "choco",
+        "imageName": "mike-and-ike-original-fruit-chews.jpg",
+        "price": 3.25
+    },
+    {
+        "name": "Sour Patch Kids",
+        "category": "choco",
+        "imageName": "sour-patch-kids.jpg",
+        "price": 3.50
+    },
+    {
+        "name": "Gummy Bears
+        "category": "choco",
+        "imageName": "sour-patch-kids.jpg",
+        "price": 3.50
+    }
+]
+

@@ -34,6 +34,12 @@ struct HomeView: View {
             
             // category List
             CategoryListView()
+            
+            // Collection View
+            CollectionView()
+            
+            // Product List
+            ProductListView()
         }
     }
 }
