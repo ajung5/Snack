@@ -15,8 +15,14 @@ struct CollectionView: View {
             
             Spacer()
             
-            Image(systemName: "arrow.right")
-                .imageScale(.large)
+            NavigationLink {
+                CategoryView()
+            } label: {
+                Image(systemName: "arrow.right")
+                    .imageScale(.large)
+            }
+            .foregroundStyle(.black)
+
         }
         .padding(.horizontal, 30)
         .padding(.vertical, 15)

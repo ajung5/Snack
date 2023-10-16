@@ -9,7 +9,22 @@ import SwiftUI
 
 struct Home: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+            
+            
+            HStack {
+                Text("Choco **Collections**")
+                    .font(.system(size: 24))
+                
+                Spacer()
+                
+                Image(systemName: "arrow.right")
+                    .imageScale(.large)
+            }
+            .padding(.horizontal, 30)
+        .padding(.vertical, 15)
+        }
     }
 }
 

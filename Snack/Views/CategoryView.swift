@@ -9,7 +9,31 @@ import SwiftUI
 
 struct CategoryView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView {
+            ScrollView {
+                VStack {
+                    // Header
+                    HStack {
+                        Text("Order From The Best OF **Snacks**")
+                            .font(.system(size: 30))
+                            .padding(.trailing)
+                        
+                        Spacer()
+                        
+                        Image(systemName: "arrow.left")
+                            .imageScale(.large)
+                            .padding()
+                            .frame(width: 70, height: 90)
+                            .overlay {
+                                RoundedRectangle(cornerRadius: 50)
+                                    .stroke()
+                                    .opacity(0.4)
+                            }
+                    }
+                }
+                .padding(30)
+            }
+        }
     }
 }
 
