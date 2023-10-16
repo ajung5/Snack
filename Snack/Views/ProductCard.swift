@@ -16,20 +16,20 @@ struct ProductCard: View {
             Image(product.imageName)
                 .resizable()
                 .scaledToFit()
-                .padding(.trailing, 50)
+                .padding(.trailing, -200)
                 .rotationEffect(Angle(degrees: 30))
             
             ZStack {
                 VStack(alignment: .leading, content: {
-                    Text(product.name)
-                        .font(.system(size: 30, weight: .semibold))
+                    Text("\(product.name)")
+                        .font(.system(size: 36, weight: .semibold))
+                        .frame(width: .infinity)
+                        .multilineTextAlignment(.leading)
                     
                     Text(product.category)
                         .font(.callout)
                         .padding()
-                        .background(
-                            .white.opacity(0.5)
-                        )
+                        .background(.white.opacity(0.9))
                         .clipShape(Capsule())
                     
                     Spacer()
@@ -41,7 +41,7 @@ struct ProductCard: View {
                         Spacer()
                         
                         Button {
-                            
+                                                    
                         } label: {
                             Image(systemName: "basket")
                                 .imageScale(.large)
@@ -50,22 +50,22 @@ struct ProductCard: View {
                                 .clipShape(Capsule())
                                 .foregroundStyle(.white)
                         }
-
                     }
                     .padding(.leading)
+                    .padding()
                     .frame(maxWidth: .infinity)
                     .frame(height: 80)
-                    .background(.white.opacity(0.5))
+                    .background(.white.opacity(0.9))
                     .clipShape(Capsule())
                 })
             }
             .padding(30)
             .frame(width: 336, height: 422)
-            .background(product.color.opacity(0.1))
-            .clipShape(.rect(cornerRadius: 57))
-            .padding(.leading, 20)
-            .clipped()
         }
+        .frame(width: 336, height: 422)
+        .background(product.color.opacity(0.1))
+        .clipShape(.rect(cornerRadius: 57))
+        .padding(.leading, 20)
     }
 }
 

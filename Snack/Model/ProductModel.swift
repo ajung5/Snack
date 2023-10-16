@@ -26,102 +26,102 @@ struct Product: Identifiable {
 
 // sample product
 var productList = [
+    // choco
     Product(
-      name: "Chocolate Chip Cookies",
+      name: "Cadbury",
       category: "Choco",
-      price: 5.99,
-      imageName: "chocolate-chip-cookies",
-      color: .pink
+      price: 25990,
+      imageName: "cadbury",
+      color: .blue
     ),
     Product(
-      name: "Peanut Butter Cookies",
+      name: "Silverqueen",
       category: "Choco",
-      price: 4.99,
-      imageName: "peanut-butter-cookies.jpg",
-      color: .pink
+      price: 20450,
+      imageName: "silverqueen",
+      color: .orange
     ),
     Product(
-      name: "Oatmeal Raisin Cookies",
+      name: "Beng Beng",
       category: "Choco",
-      price: 3.99,
-      imageName: "oatmeal-raisin-cookies.jpg",
-      color: .pink
+      price: 3200,
+      imageName: "bengbeng",
+      color: .red
     ),
-    Product(
-      name: "Snickerdoodles",
-      category: "Choco",
-      price: 2.99,
-      imageName: "snickerdoodles.jpg",
-      color: .pink
-    ),
-    Product(
-      name: "Chocolate Milkshake",
-      category: "Choco",
-      price: 4.99,
-      imageName: "chocolate-milkshake.jpg",
-      color: .pink
-    ),
-    Product(
-      name: "Tortilla",
-      category: "Chips",
-      price: 1.99,
-      imageName: "tortilla-chips.jpg",
-      color: .pink
-    ),
-    Product(
-      name: "Corn Chips",
-      category: "Chips",
-      price: 1.99,
-      imageName: "corn-chips.jpg",
-      color: .pink
-    ),
-    Product(
-      name: "Cheetos",
-      category: "Chips",
-      price: 1.99,
-      imageName: "cheetos.jpg",
-      color: .pink
-    ),
-    Product(
-      name: "Doritos",
-      category: "Chips",
-      price: 1.99,
-      imageName: "doritos.jpg",
-      color: .pink
-    ),
-    Product(
-      name: "Lays",
-      category: "Chips",
-      price: 1.99,
-      imageName: "lays.jpg",
-      color: .pink
-    ),
-    Product(
-      name: "Ruffles",
-      category: "Chips",
-      price: 1.99,
-      imageName: "ruffles.jpg",
-      color: .pink
-    ),
+    
+    // chips
     Product(
       name: "Pringles",
       category: "Chips",
-      price: 1.99,
-      imageName: "pringles.jpg",
-      color: .pink
+      price: 15990,
+      imageName: "pringles",
+      color: .brown
     ),
     Product(
-      name: "Salt & Vinegar",
+      name: "Chitato",
       category: "Chips",
-      price: 1.99,
-      imageName: "salt-and-vinegar-chips.jpg",
-      color: .pink
+      price: 7500,
+      imageName: "chitato",
+      color: .yellow
     ),
     Product(
-      name: "Barbecue",
+      name: "Qtela",
       category: "Chips",
-      price: 1.99,
-      imageName: "barbecue-chips.jpg",
-      color: .pink
-    )
+      price: 6400,
+      imageName: "qtela",
+      color: .green
+    ),
+    
+    // candy
+    Product(
+      name: "Relaxa",
+      category: "Candy",
+      price: 5600,
+      imageName: "relaxa",
+      color: .teal
+    ),
+    Product(
+      name: "Mentos",
+      category: "Candy",
+      price: 6200,
+      imageName: "mentos",
+      color: .blue
+    ),
+    Product(
+      name: "M&M's",
+      category: "Candy",
+      price: 8500,
+      imageName: "mnm",
+      color: .brown
+    ),
+    
+    // Cookies
+    Product(
+      name: "Good Time",
+      category: "Cookies",
+      price: 5500,
+      imageName: "chocolate-chip-cookies",
+      color: .teal
+    ),
+    Product(
+      name: "Roma",
+      category: "Cookies",
+      price: 3500,
+      imageName: "roma",
+      color: .blue
+    ),
+    Product(
+      name: "Selamat",
+      category: "Cookies",
+      price: 5000,
+      imageName: "selamat",
+      color: .brown
+    ),
+    Product(
+      name: "Nabati",
+      category: "Cookies",
+      price: 3500,
+      imageName: "nabati",
+      color: .yellow
+    ),
 ]
