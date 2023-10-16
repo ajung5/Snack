@@ -22,6 +22,7 @@
 		970DFB562ADD1FA300118E46 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970DFB552ADD1FA300118E46 /* ProductCard.swift */; };
 		971596E32ADD7C96008C6FA6 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971596E22ADD7C96008C6FA6 /* Home.swift */; };
 		971596E52ADD814B008C6FA6 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 971596E42ADD814B008C6FA6 /* CategoryView.swift */; };
+		973B97E82ADD8988005F0999 /* ProductCardSmall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973B97E72ADD8988005F0999 /* ProductCardSmall.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		970DFB552ADD1FA300118E46 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		971596E22ADD7C96008C6FA6 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		971596E42ADD814B008C6FA6 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		973B97E72ADD8988005F0999 /* ProductCardSmall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCardSmall.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				971596E42ADD814B008C6FA6 /* CategoryView.swift */,
 				970DFB512ADD19F300118E46 /* ProductListView.swift */,
 				970DFB552ADD1FA300118E46 /* ProductCard.swift */,
+				973B97E72ADD8988005F0999 /* ProductCardSmall.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				971596E32ADD7C96008C6FA6 /* Home.swift in Sources */,
 				970DFB562ADD1FA300118E46 /* ProductCard.swift in Sources */,
 				970DFB4C2ADD12B500118E46 /* CollectionView.swift in Sources */,
+				973B97E82ADD8988005F0999 /* ProductCardSmall.swift in Sources */,
 				970DFB432ADCE8A700118E46 /* CategoryModel.swift in Sources */,
 				970DFB332ADCE70300118E46 /* ContentView.swift in Sources */,
 				970DFB522ADD19F300118E46 /* ProductListView.swift in Sources */,
