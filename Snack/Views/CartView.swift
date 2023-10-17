@@ -56,7 +56,7 @@ struct CartView: View {
                     
                     // Cart Products
                     VStack {
-                        ForEach(productList) { item in
+                        ForEach(productList.shuffled()) { item in
                             CartProductCard(product: item)
                         }
                     }

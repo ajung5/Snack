@@ -11,7 +11,7 @@ struct ProductListView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack {
-                ForEach(productList, id: \.id) { item in
+                ForEach(productList.shuffled(), id: \.id) { item in
                     ProductCard(product: item)
                 }
             }
