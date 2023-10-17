@@ -52,6 +52,7 @@ struct CategoryView: View {
                 }
             }
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
