@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		970C4BC82ADF8A7B001461F7 /* CartPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970C4BC72ADF8A7B001461F7 /* CartPaymentView.swift */; };
 		970DFB312ADCE70200118E46 /* SnackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970DFB302ADCE70200118E46 /* SnackApp.swift */; };
 		970DFB332ADCE70300118E46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970DFB322ADCE70300118E46 /* ContentView.swift */; };
 		970DFB352ADCE70500118E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970DFB342ADCE70500118E46 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		970C4BC72ADF8A7B001461F7 /* CartPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartPaymentView.swift; sourceTree = "<group>"; };
 		970DFB2D2ADCE70200118E46 /* Snack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		970DFB302ADCE70200118E46 /* SnackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnackApp.swift; sourceTree = "<group>"; };
 		970DFB322ADCE70300118E46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				971596E42ADD814B008C6FA6 /* CategoryView.swift */,
 				970DFB512ADD19F300118E46 /* ProductListView.swift */,
 				973B97E92ADD8DC0005F0999 /* CartView.swift */,
+				970C4BC72ADF8A7B001461F7 /* CartPaymentView.swift */,
 				9750BB1F2ADDF4830070A43B /* CartProductCard.swift */,
 				970DFB552ADD1FA300118E46 /* ProductCard.swift */,
 				973B97E72ADD8988005F0999 /* ProductCardSmall.swift */,
@@ -207,6 +210,7 @@
 				970DFB3F2ADCE73500118E46 /* HomeView.swift in Sources */,
 				970DFB502ADD138B00118E46 /* ModelData.swift in Sources */,
 				971596E52ADD814B008C6FA6 /* CategoryView.swift in Sources */,
+				970C4BC82ADF8A7B001461F7 /* CartPaymentView.swift in Sources */,
 				970DFB472ADD0FCF00118E46 /* ProductModel.swift in Sources */,
 				971596E32ADD7C96008C6FA6 /* Home.swift in Sources */,
 				970DFB562ADD1FA300118E46 /* ProductCard.swift in Sources */,

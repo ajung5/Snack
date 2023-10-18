@@ -62,7 +62,8 @@ struct CartView: View {
                     }
                     .padding()
                     
-                    // Card Total
+                    // Card Payment
+                    CartPaymentView()
                     
                     //
                 }
