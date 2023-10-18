@@ -43,5 +43,5 @@ struct CartProductCard: View {
 }
 
 #Preview {
-    CartProductCard(product: productList[0])
+    CartProductCard(product: productList[1])
 }

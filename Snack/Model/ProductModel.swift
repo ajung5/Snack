@@ -38,7 +38,7 @@ var productList = [
       name: "Silverqueen",
       category: "Choco",
       price: 20450,
-      imageName: "silverqueen",
+      imageName: "silverqueen_matcha",
       color: .orange
     ),
     Product(

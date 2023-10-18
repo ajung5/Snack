@@ -108,8 +108,8 @@
 				971596E42ADD814B008C6FA6 /* CategoryView.swift */,
 				970DFB512ADD19F300118E46 /* ProductListView.swift */,
 				973B97E92ADD8DC0005F0999 /* CartView.swift */,
-				970DFB552ADD1FA300118E46 /* ProductCard.swift */,
 				9750BB1F2ADDF4830070A43B /* CartProductCard.swift */,
+				970DFB552ADD1FA300118E46 /* ProductCard.swift */,
 				973B97E72ADD8988005F0999 /* ProductCardSmall.swift */,
 			);
 			path = Views;

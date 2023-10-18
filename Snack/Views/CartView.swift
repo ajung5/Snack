@@ -60,7 +60,7 @@ struct CartView: View {
                             CartProductCard(product: item)
                         }
                     }
-                    .padding(.horizontal)
+                    .padding()
                     
                     // Card Total
                     
